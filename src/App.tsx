@@ -40,7 +40,8 @@ import {
   CreditCard,
   MessageSquare,
   Briefcase,
-  Camera
+  Camera,
+  Laptop
 } from 'lucide-react';
 
 interface Lead {
@@ -1586,7 +1587,7 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Marketing Digital</h3>
@@ -1595,7 +1596,7 @@ function App() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Gestión de Redes Sociales</h3>
@@ -1604,7 +1605,7 @@ function App() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Publicidad en Meta</h3>
@@ -1613,7 +1614,7 @@ function App() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
                 <Award className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Branding y Diseño</h3>
@@ -1622,7 +1623,7 @@ function App() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
                 <BarChart3 className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Análisis y Reportes</h3>
@@ -1631,12 +1632,12 @@ function App() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
-                <Camera className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-lg">
+                <Laptop className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Landing Pages</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Desarrollo Web</h3>
               <p className="text-gray-600 leading-relaxed">
-                Páginas de destino optimizadas para conversión y generación de leads.
+                Sitios web modernos y aplicaciones que combinan diseño atractivo con funcionalidad excepcional.
               </p>
             </div>
           </div>
